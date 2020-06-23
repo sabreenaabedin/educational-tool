@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import {Container}  from '@material-ui/core';
 import './App.css';
 import Results from './Results.js';
