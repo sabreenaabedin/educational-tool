@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import {Container}  from '@material-ui/core';
 import './App.css';
+import Results from './Results.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Container maxWidth="sm">
+          <h1>Header here</h1>
+          <h2>Searchbar Here</h2>
+          <h5>Example Page Here</h5>
+          <Results />
+        </Container>
       </div>
     );
   }
