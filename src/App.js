@@ -1,7 +1,15 @@
+// imports from dependencies 
 import React, { Component } from 'react';
+import algoliasearch from 'algoliasearch/lite';
+import { InstantSearch, SearchBox } from 'react-instantsearch-dom';
+// import { InstantSearch, SearchBox, Hits, Highlight } from 'react-instantsearch-dom';
+
+// internal imports
 import './App.css';
-// import Results from './Results.js';
 import ContentPage from './ContentPage/ContentPage.js';
+// import Results from './Results.js';
+
+const searchClient = algoliasearch('FUG82HNJF7', '79cf8a98d1734a2741a4dfdb669c4762');
 
 class App extends Component {
   render() {
@@ -10,7 +18,12 @@ class App extends Component {
           <div className="App-header">
             <h1>Basic Guide to BLM Title</h1>
           </div>
-          <h2 class="searchbar">Searchbar Here</h2>
+          <div class="searchbar">
+            <InstantSearch searchClient={searchClient} indexName="blm-info">
+              <SearchBox translations = {{placeholder:'Search'}}/>
+            </InstantSearch>
+          </div>
+          
           <ContentPage />
           {/* <Results /> */}
       </div>
