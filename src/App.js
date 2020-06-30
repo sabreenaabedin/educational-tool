@@ -11,6 +11,18 @@ import ContentPage from './ContentPage/ContentPage.js';
 
 const searchClient = algoliasearch('FUG82HNJF7', '79cf8a98d1734a2741a4dfdb669c4762');
 
+// const Hit = ({hit}) =>
+//   <div className="hit">
+//       <div className = "hitName">
+//         {hit.name}
+//       </div>
+//   </div>
+
+// const Content = () =>
+//   <div className = "content">
+//     <Hits hitComponent = {Hit}/>
+//   </div>
+
 class App extends Component {
   render() {
     return (
