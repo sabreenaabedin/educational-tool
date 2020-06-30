@@ -5,7 +5,6 @@ class ContentPage extends Component {
   render() {
     return (
         <div>
-            <p>{"data on this page"}</p>
         </div>
     );
   }
