@@ -5,12 +5,16 @@
   "dependencies": {
     "@material-ui/core": "^4.10.2",
     "algoliasearch": "^4.3.0",
+    "instantsearch.css": "^7.4.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-instantsearch-dom": "^6.6.0",
     "react-scripts": "^3.4.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "css-loader": "^3.6.0",
+    "style-loader": "^1.2.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
