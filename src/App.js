@@ -3,14 +3,15 @@ import algoliasearch from 'algoliasearch/lite';
 import { InstantSearch, SearchBox, Hits } from 'react-instantsearch-dom';
 import './App.css';
 import ContentPage from './ContentPage/ContentPage.js';
-// import Results from './Results.js';
+import Button from '@material-ui/core/Button';
 
 const searchClient = algoliasearch('FUG82HNJF7', '79cf8a98d1734a2741a4dfdb669c4762');
 
 const Hit = ({hit}) =>
-  <div className="hit">
+  <div className="hit" >
       <div>
         {hit.title}
+        <Button> {"Read More"}</Button>
       </div>
   </div>
 
@@ -20,6 +21,10 @@ const Content = () =>
   </div>
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <div className="App">
@@ -27,22 +32,19 @@ class App extends Component {
             <h1>Equity Blueprint</h1>
             <h3>An Ally's Guide to BLM</h3>
           </div>
-          <div>
-            <InstantSearch searchClient={searchClient} indexName="blm-info" >
-              <header class="search-header">
-                <SearchBox translations = {{placeholder:'Search'}}/>
-              </header>
-              
-              <main>
-                <Content />
-              </main>
-              
-            </InstantSearch>
-          </div>
-          
-          
+  
+          <InstantSearch searchClient={searchClient} indexName="blm-info" >
+            <header className="search-header">
+              <SearchBox translations = {{placeholder:'Search'}}/>
+            </header>
+            
+            <main>
+              <Content />
+            </main>
+            
+          </InstantSearch>
+
           <ContentPage />
-          {/* <Results /> */}
       </div>
     );
   }
