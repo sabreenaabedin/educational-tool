@@ -5,7 +5,15 @@ class ContentPage extends Component {
   render() {
     return (
         <div>
-            <p>{"data on this page"}</p>
+            <p>{
+              function inputdata(newData) {
+	        	  const newinfo = newData['content'];
+
+	              for (let i = 0; i < newinfo.length; i++){
+		              const newDiv = document.createElement('p');
+		              newDiv.textContent = newinfo[i].paragraph;
+	                }}
+            }</p>
         </div>
     );
   }
