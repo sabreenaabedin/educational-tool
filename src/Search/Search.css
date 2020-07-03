@@ -1,0 +1,14 @@
+.search-header{
+    margin: 10px;
+}
+
+.content {
+    color: red;
+    /* min-width: 100em; */
+    /* width: 100%; */
+}
+
+.hit {
+    width: 100%;
+    color: green;
+}
