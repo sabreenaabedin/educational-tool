@@ -1,0 +1,144 @@
+[
+    {
+        "title": "sample",
+        "content": [
+            {
+                "paragraph": "p1"
+            },
+            {
+                "paragraph": "p2"
+            }
+        ],
+        "sources": [
+            { 
+                "link":"link1"
+            },
+            { 
+                "link":"link2"
+            }
+            
+        ],
+        "tags":[]
+    },{
+        "title": "Why do people say 'Black Lives Matter' instead of 'all lives matter'?",
+        "content": [
+            {
+                "paragraph":"The common response to the phrase 'Black lives matter' is 'well, of course. All lives matter.'This is completely true. But that isn’t the point of the movement. The purpose of the BLM movement is to  shine a spotlight on the lack of attention and equality between Black people and White people. There is  deep, systemic  racism and violence that Black people face every day, and White people don’t have to worry about it. The movement’s purpose is not to exclude anyone; it is to bring everyone to the same level."
+            },
+            {
+                "paragraph":"By responding to 'Black lives matter' with 'all lives matter', you are silencing and ignoring Black people. You are grouping them with everyone else, when the fact of the matter is that they are not treated like everyone else. Saying 'all lives matter' invalidates the fact that Black people have been treated as less-than for centuries. If all lives truly mattered to everyone right now, we wouldn’t need this movement as desperately as we do."
+            }
+        ],
+        "sources": [
+            {
+                "link": "https://www.sjuhawknews.com/the-issue-with-saying-all-lives-matter/"
+            }
+            
+        ],
+        "tags": ["BLM", "Black Lives Matter", "ALM", "All Lives Matter"]
+    },{
+        "title": "Violent protests never work. There’s no reason to get so violent.",
+        "content": [
+            {
+                "paragraph": "Allow me to remind you how this country was formed through a series of quick history highlights."
+            },
+            {
+                "paragraph": "The Stamp Act Riots (1765): At the time, all printed material in America was supposed to be taxed for Britain’s gain. Because of this, riots erupted in the streets of New York, Massachusetts, Rhode Island, Philadelphia, and elsewhere. Through these riots and protests, Congress formed a declaration, the Stamp Act, regarding why Britain had no right to tax Americans at all. This was a huge foundation and stepping stone for the American Revolution."
+            },
+            {
+                "paragraph": "The Boston Tea Party (1773): American colonists were frustrated and infuriated with the British for imposing “taxation without representation”. Their voices weren’t being heard. In retaliation, they dumped 342 chests of tea that had been imported by the British East India Company into the Boston harbor. This caused around $2 million in destroyed tea. It led to the rally of the original 13 colonies overthrowing British rule."
+            },
+            {
+                "paragraph": "The Pennsylvania Mutiny (1783): Soldiers who had fought in the Revolutionary War started a riot against the Congress of Confederation, who, at the time, was based in Philadelphia. This was because Congress was being completely unjust as they had not paid them. 400 of them marched to Congress’ base, but without the support of the state of Pennsylvania, they fled the scene. Because of Pennsylvania’s refusal, the idea that the federal government needed to have its own special district as a base was placed in the Constitution. This came to life as Washington, D.C."
+            },
+            {
+                "paragraph": "Others include the Dorr Rebellion (1841), the Detroit Riots (1967), the Stonewall Riots (1969), the Kent State Riots (1970), the Mount Pleasant Riots (1991), and the LA Riots (1992). This is a very general list, as there are countless more that helped create our country."
+            }
+        ],
+        "sources": [
+            { 
+                "link":"https://www.trtworld.com/opinion/american-history-shows-civil-unrest-is-the-only-way-black-voices-are-heard-36830"
+            },
+            { 
+                "link":"https://time.com/3951282/riot-violence-use-american-history/"
+            },
+            { 
+                "link":"https://www.bustle.com/articles/79397-are-riots-effective-9-times-violent-demonstration-changed-american-politics"
+            } 
+        ],
+        "tags": ["BLM", "Black Lives Matter", "Protest", "Riot", "violence"]
+    },{
+        "title": "Martin Luther King Jr. wouldn’t have wanted these violent protests.",
+        "content": [
+            {
+                "paragraph": "It is not anyone’s place to glamorize the Civil Rights Movement, or to assume what Dr. King would believe if he were alive today. White people explaining Martin Luther King (MLK) Jr.’s activism to Black people is extremely condescending. It is important not to glamorize the 1960’s Civil Rights Movement, as many of the historical marches that have been circulating on social media often ended tragically. Protests were not peaceful for the protestors, even when they remained nonviolent. The police, KKK, and White Americans were extremely violent towards peaceful Black protesters and many Black people were injured or killed. Interestingly, while many protestors remained peaceful, some demonstrations during the Birmingham campaign were intended to provoke a hostile response from Whites. Violence is a headline grabber, and protesters intended to expose the brutalities of Jim Crow America to the broader population. Additionally, while MLK advocated for non-violence, other Civil Right leaders didn’t, like Malcolm X. But that’s a different topic."
+            },
+            {
+                "paragraph": "The same people who use Dr. King’s words against the protestors likely haven’t approved of peaceful protests in the past either. At the end of the day, we don’t know what MLK Jr. would have wanted because he was killed like many other Civil Rights-era activists. What we do know, however, is that he said, “A riot is the language of the unheard. And what has America failed to hear?” Black Americans haven’t been heard for a really long time. They were criticized for peaceful protests, such as kneeling during the national anthem and wearing shirts that said “I can't breathe” during a basketball game. They’ve been peacefully marching and protesting against police brutality and systemic racism for decades, but nothing has changed.  Bernice King, MLK’s daughter, said that “many who quote him now and evoke him to deter justice today would likely hate, and may already hate, the authentic King.” Before he died, 63% of America viewed Dr. King unfavorably, but then the US glamorized him when he was killed. Those who bring up MLK are undermining the protests and riots occurring today, regardless of their intentions. As Martin Luther King Jr. said the  “certain conditions” which exist in society have to be “condemned as vigorously as we condemn riots."
+            },
+            {
+                "paragraph": "Dr. King also said: “The white moderate who is more devoted to 'order' than to justice; who prefers a negative peace which is the absence of tension to a positive peace which is the presence of justice; who constantly says ‘I agree with you in the goal you seek, but I can't agree with your methods of direct action;’ who paternalistically feels he can set the timetable for another man's freedom” is the greatest obstacle for Black liberation in America."
+            },
+            {
+                "paragraph": "Instead of focusing your attention on all the violent riots, recognize that riots are a symptom of the problem of racism, not the problem itself. There would be no riots in the first place if White people had listened to Black voices during the past several decades."
+            }
+        ],
+        "sources": [
+            { 
+                "link":"link1"
+            },
+            { 
+                "link":"link2"
+            } 
+        ],
+        "tags": ["BLM", "Black Lives Matter", "Protest", "Riot", "violence", "MLK", "Martin Luther King"]
+    },{
+        "title": "Blue Lives Matter!",
+        "content": [
+            {
+                "paragraph": "To put it simply, you cannot compare a chosen profession to an entire race of people. Working in law enforcement cannot ever be equal to race; you choose your occupation, but you cannot choose how you are born. Police have never lived through a time in which their lives were considered less-than, disposable, or insignificant. They do not live under erasure, and the system has never been stacked against them. Police are put on a pedestal, while Black people are often treated with the opposite kind of hospitality. This article goes into more detail: https://www.huffpost.com/entry/heres-whats-wrong-with-bl_b_10906348"
+            }
+        ],
+        "sources": [
+            { 
+                "link":"https://www.huffpost.com/entry/heres-whats-wrong-with-bl_b_10906348"
+            }
+        ],
+        "tags":["ACAB", "cops", "blue lives matter", "BLM", "Black Lives Matter"]
+    },{
+        "title": "But Black people commit more crimes than White people.",
+        "content": [
+            {
+                "paragraph": "The truth of this situation is that Black neighborhoods are overpoliced. When you look at statistics without doing more research behind it, it first appears as though Black people commit more crimes than White people. This, however, cannot be true, as Black people only make up around 13% of the US population. More attention and pressure is put on Black communities, and so more of them are arrested for things that White people can just do without much of a second thought, such as selling lemonade on the side of the road “without a permit”, or speeding."
+            }
+        ],
+        "sources": [
+            { 
+                "link":"https://www.cssny.org/news/entry/New-Neighbors"
+            },
+            { 
+                "link":"https://www.splcenter.org/20180614/biggest-lie-white-supremacist-propaganda-playbook-unraveling-truth-about-%E2%80%98black-white-crime"
+            }
+            
+        ],
+        "tags":["BLM", "Black Crime"]
+    },{
+        "title": "What is the \"blue wall of silence\"?",
+        "content": [
+            {
+                "paragraph": "The term \"blue wall of silence\" is an unofficial oath many cops take when they get into the law enforcement system. It refers to the idea that cops don’t rat out other cops. They aren’t to speak up about unjust actions their coworkers take, and they are never to testify against other cops. No matter what they see their coworkers do, they have a loyalty to the oath, and they cannot go against other cops. These unjust actions include any errors, misconduct, or crimes on the other cops’ part, including any and all police brutality. Officers who live by the code will feign ignorance of the situation or say that they didn’t see anything happen in the first place when questioned."
+            }
+        ],
+        "sources": [
+            { 
+                "link":"https://www.usatoday.com/story/opinion/policing/2019/01/31/blue-wall-of-silence-policing-the-usa-cops-community/2604929002/"
+            },
+            { 
+                "link":"https://en.wikipedia.org/wiki/Blue_wall_of_silence"
+            }
+            
+        ],
+        "tags":["BLM", "cops", "Blue wall of silence", "blue lives matter"]
+    }
+  
+]

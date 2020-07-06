@@ -28,7 +28,7 @@ class App extends Component {
             <h1>Equity Blueprint</h1>
             <h3>An Ally's Guide to BLM</h3>
           </div>
-  
+          
           <InstantSearch searchClient={searchClient} indexName="blm-info" >
             <header className="search-header">
               <SearchBox translations = {{placeholder:'Search'}}/>
