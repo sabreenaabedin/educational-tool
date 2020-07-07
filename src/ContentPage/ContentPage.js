@@ -4,7 +4,7 @@ import data from '../sampledata.json';
 class ContentPage extends Component {
 
   inputData() {
-    console.log(data[0].content)
+    console.log(data[1].content[0].paragraph)
 
     // for( each item in data)
     //     data(i).content
@@ -16,7 +16,7 @@ class ContentPage extends Component {
 
     // <h>  data(i).content(j) </h>
     
-    return ""
+    return "test"
     // sampledata[0].title
     // sampledata[0].source
     // sampledata[0].tags
