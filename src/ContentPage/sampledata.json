@@ -1,4 +1,5 @@
-[
+{ "data":
+    [
     {
         "title": "sample",
         "content": [
@@ -141,4 +142,6 @@
         "tags":["BLM", "cops", "Blue wall of silence", "blue lives matter"]
     }
   
-]
+    ]
+
+}
