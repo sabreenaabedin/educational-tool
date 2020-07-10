@@ -4,62 +4,39 @@ import data from '../sampledata.json';
 class ContentPage extends Component {
 
   inputData() {
-    console.log(data[1].content[0].paragraph)
 
-    // for( each item in data)
-    //     data(i).content
-    //data[4].content
-    //      data(i). title
-    //      data(i). sources
+    JSON.stringify(data);
+    //loop through array to get all the data from 'content'
+    for (var i = 0; i < data.length; i++){
+      //loop through each object in 'content' and grab data in 'paragraph'
+      for (var j = 0; j < data.length; j++){
+        //display content
+        console.log(data[i].content[j]);
+        var disCont = data[i].content[j];
+        //return <span>{disCont}</span>;
+    }}
 
-    // for each item in data(i.content)
+    //loop through array to get all the data from title
+    for (var a = 0; a < data.length; a++){
+        var disTitle = data[a].title;
+        console.log(data[a].title);
+        return <span>{disTitle}</span>;
+      }
 
-    // <h>  data(i).content(j) </h>
-    
-    return "test"
-    // sampledata[0].title
-    // sampledata[0].source
-    // sampledata[0].tags
-    // const newCont = data['content'];
-    // const newTitle = data['title'];
-    // const newSrce = data['source'];
-    // const newTags = data['tags'];
-
-    //   //loop through array to get all the data from title
-    //   for (let i = 0; i < newTitle.length; i++){
-
-    //     //create html elements for the title
-    //     const newTitle = document.createElement('h2');
-    //     //put the text content of title into the new elements
-    //     newTitle.textContent = newTitle[i].title;
-    //     }
-
-    // return(<h2>test</h2>)
-
-
-    //   for (let i = 0; i < newCont.length; i++){
-
-    //     const newPara = document.createElement('p');
-    //     const newLink = document.createElement('p');
-
-    //     newPara.textContent = newCont[i].paragraph;
-    //     newLink.textContent = newCont[i].link;
-    //     }
+    //loop through array to get all the data from souces
+    for (var c = 0; c < data.length; c++){
+      for (var d = 0; d < data.length; d++){
+        console.log(data[c].sources[d]);
+        //return <span>{(data[i].content[j])}</span>;
+    }}  
       
-
-    //   for (let i = 0; i < newSrce.length; i++){
-
-    //     const newPara = document.createElement('p');
-    //     newPara.textContent = newSrce[i].source;
-    //     }
+      //loop through array to get all the data from tags
+      for (var e = 0; e < data.length; e++){
+        console.log(data[e].tags);
+        //return <span>{(data[i].content[j])}</span>;
+      }
       
-
-    //   for (let i = 0; i < newTags.length; i++){
-
-    //     const newDiv = document.createElement('div');
-    //     newDiv.textContent = newTags[i].tags;
-    //     }
-
+      
   }
 
   render() {
