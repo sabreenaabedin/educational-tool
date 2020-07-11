@@ -9,12 +9,14 @@ class ContentPage extends Component {
     //loop through array to get all the data from 'content'
     for (var i = 0; i < data.length; i++){
       //loop through each object in 'content' and grab data in 'paragraph'
-      for (var j = 0; j < data.length; j++){
+      for (var j = 0; j < data[i].content.length; j++){
         //display content
-        console.log(data[i].content[j]);
+        // console.log(data[i].content[j]);
         var disCont = data[i].content[j];
-        //return <span>{disCont}</span>;
-    }}
+        console.log("disCont", disCont)
+        // return <span>{disCont}</span>;
+    }
+  }
 
     //loop through array to get all the data from title
     for (var a = 0; a < data.length; a++){
