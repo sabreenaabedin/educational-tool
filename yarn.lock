@@ -2,6 +2,96 @@
 # yarn lockfile v1
 
 
+"@algolia/cache-browser-local-storage@4.9.0":
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/@algolia/cache-browser-local-storage/-/cache-browser-local-storage-4.9.0.tgz#9adf95a143b71219b24fa2874de771b58109c9c2"
+  dependencies:
+    "@algolia/cache-common" "4.9.0"
+
+"@algolia/cache-common@4.9.0":
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/@algolia/cache-common/-/cache-common-4.9.0.tgz#ec63d71ec201d0d9eb9946bc58f10e430e982b7b"
+
+"@algolia/cache-in-memory@4.9.0":
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/@algolia/cache-in-memory/-/cache-in-memory-4.9.0.tgz#14287235b7eff46c0c3dae2f05e7816805948804"
+  dependencies:
+    "@algolia/cache-common" "4.9.0"
+
+"@algolia/client-account@4.9.0":
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/@algolia/client-account/-/client-account-4.9.0.tgz#bf8c23d8c7ff9bfa08b480fa27f96cfb489f3263"
+  dependencies:
+    "@algolia/client-common" "4.9.0"
+    "@algolia/client-search" "4.9.0"
+    "@algolia/transporter" "4.9.0"
+
+"@algolia/client-analytics@4.9.0":
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/@algolia/client-analytics/-/client-analytics-4.9.0.tgz#4d559ffc9c644684fa152500178eafa1df21ba3d"
+  dependencies:
+    "@algolia/client-common" "4.9.0"
+    "@algolia/client-search" "4.9.0"
+    "@algolia/requester-common" "4.9.0"
+    "@algolia/transporter" "4.9.0"
+
+"@algolia/client-common@4.9.0":
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/@algolia/client-common/-/client-common-4.9.0.tgz#51f9cf66b99e4042647d344bb4dd1cd970de0f81"
+  dependencies:
+    "@algolia/requester-common" "4.9.0"
+    "@algolia/transporter" "4.9.0"
+
+"@algolia/client-recommendation@4.9.0":
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/@algolia/client-recommendation/-/client-recommendation-4.9.0.tgz#24992ff450d82fa982f8a3c9af7b043532cfa64b"
+  dependencies:
+    "@algolia/client-common" "4.9.0"
+    "@algolia/requester-common" "4.9.0"
+    "@algolia/transporter" "4.9.0"
+
+"@algolia/client-search@4.9.0":
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/@algolia/client-search/-/client-search-4.9.0.tgz#806379940d08cb95f562d93e31c2f0478fc040a4"
+  dependencies:
+    "@algolia/client-common" "4.9.0"
+    "@algolia/requester-common" "4.9.0"
+    "@algolia/transporter" "4.9.0"
+
+"@algolia/logger-common@4.9.0":
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/@algolia/logger-common/-/logger-common-4.9.0.tgz#488f23c0758ab0cd79f0fcbbd3691fb216a0b0dc"
+
+"@algolia/logger-console@4.9.0":
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/@algolia/logger-console/-/logger-console-4.9.0.tgz#fe6bdd316f163908617874fae9f61e3249ae23a2"
+  dependencies:
+    "@algolia/logger-common" "4.9.0"
+
+"@algolia/requester-browser-xhr@4.9.0":
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-browser-xhr/-/requester-browser-xhr-4.9.0.tgz#ae4f39171f74ea3532f66cd39be777eaafe8147d"
+  dependencies:
+    "@algolia/requester-common" "4.9.0"
+
+"@algolia/requester-common@4.9.0":
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-common/-/requester-common-4.9.0.tgz#e65d6fb08d239d86a0076ad32638fe2d8abedaf6"
+
+"@algolia/requester-node-http@4.9.0":
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/@algolia/requester-node-http/-/requester-node-http-4.9.0.tgz#4cb7cf5b1f4228a3128ccb2700b790a6f81ec7e6"
+  dependencies:
+    "@algolia/requester-common" "4.9.0"
+
+"@algolia/transporter@4.9.0":
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/@algolia/transporter/-/transporter-4.9.0.tgz#8d4cadcee1b848e3b7c3efbfb76f46c3a374afbb"
+  dependencies:
+    "@algolia/cache-common" "4.9.0"
+    "@algolia/logger-common" "4.9.0"
+    "@algolia/requester-common" "4.9.0"
+
 "@babel/code-frame@7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -961,6 +1051,12 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime@^7.1.2":
+  version "7.13.10"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.13.10.tgz#47d42a57b6095f4468da440388fdbad8bebf0d7d"
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/template@^7.10.1", "@babel/template@^7.10.3", "@babel/template@^7.4.0", "@babel/template@^7.8.6":
   version "7.10.3"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.10.3.tgz#4d13bc8e30bf95b0ce9d175d30306f42a2c9a7b8"
@@ -1399,6 +1495,10 @@
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.5.tgz#dcce4430e64b443ba8945f0290fb564ad5bac6dd"
 
+"@types/json-schema@^7.0.5":
+  version "7.0.7"
+  resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.7.tgz#98a993516c859eb0d5c4c8f098317a9ea68db9ad"
+
 "@types/minimatch@*":
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
@@ -1688,9 +1788,22 @@ ajv-keywords@^3.1.0, ajv-keywords@^3.4.1:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-3.5.0.tgz#5c894537098785926d71e696114a53ce768ed773"
 
+ajv-keywords@^3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-3.5.2.tgz#31f29da5ab6e00d1c2d329acf7b5929614d5014d"
+
 ajv@^6.1.0, ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.2:
   version "6.12.2"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.2.tgz#c629c5eced17baf314437918d2da88c99d5958cd"
+  dependencies:
+    fast-deep-equal "^3.1.1"
+    fast-json-stable-stringify "^2.0.0"
+    json-schema-traverse "^0.4.1"
+    uri-js "^4.2.2"
+
+ajv@^6.12.4:
+  version "6.12.6"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"
   dependencies:
     fast-deep-equal "^3.1.1"
     fast-json-stable-stringify "^2.0.0"
@@ -1705,6 +1818,31 @@ ajv@^6.5.5:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
+
+algoliasearch-helper@^3.4.3:
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.4.4.tgz#f2eb46bc4d2f6fed82c7201b8ac4ce0a1988ae67"
+  dependencies:
+    events "^1.1.1"
+
+algoliasearch@^4.3.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-4.9.0.tgz#76a78632014902845af5f1d7c02a7115e5b53b50"
+  dependencies:
+    "@algolia/cache-browser-local-storage" "4.9.0"
+    "@algolia/cache-common" "4.9.0"
+    "@algolia/cache-in-memory" "4.9.0"
+    "@algolia/client-account" "4.9.0"
+    "@algolia/client-analytics" "4.9.0"
+    "@algolia/client-common" "4.9.0"
+    "@algolia/client-recommendation" "4.9.0"
+    "@algolia/client-search" "4.9.0"
+    "@algolia/logger-common" "4.9.0"
+    "@algolia/logger-console" "4.9.0"
+    "@algolia/requester-browser-xhr" "4.9.0"
+    "@algolia/requester-common" "4.9.0"
+    "@algolia/requester-node-http" "4.9.0"
+    "@algolia/transporter" "4.9.0"
 
 alphanum-sort@^1.0.0:
   version "1.0.2"
@@ -2536,6 +2674,10 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
+classnames@^2.2.5:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
+
 clean-css@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.3.tgz#507b5de7d97b48ee53d84adb0160ff6216380f78"
@@ -2921,6 +3063,24 @@ css-loader@3.4.2:
     postcss-modules-values "^3.0.0"
     postcss-value-parser "^4.0.2"
     schema-utils "^2.6.0"
+
+css-loader@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-3.6.0.tgz#2e4b2c7e6e2d27f8c8f28f61bffcd2e6c91ef645"
+  dependencies:
+    camelcase "^5.3.1"
+    cssesc "^3.0.0"
+    icss-utils "^4.1.1"
+    loader-utils "^1.2.3"
+    normalize-path "^3.0.0"
+    postcss "^7.0.32"
+    postcss-modules-extract-imports "^2.0.0"
+    postcss-modules-local-by-default "^3.0.2"
+    postcss-modules-scope "^2.2.0"
+    postcss-modules-values "^3.0.0"
+    postcss-value-parser "^4.1.0"
+    schema-utils "^2.7.0"
+    semver "^6.3.0"
 
 css-prefers-color-scheme@^3.1.1:
   version "3.1.1"
@@ -3731,6 +3891,10 @@ etag@~1.8.1:
 eventemitter3@^4.0.0:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.4.tgz#b5463ace635a083d018bdc7c917b4c5f10a85384"
+
+events@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/events/-/events-1.1.1.tgz#9ebdb7635ad099c70dcc4c2a1f5004288e8bd924"
 
 events@^3.0.0:
   version "3.1.0"
@@ -4701,6 +4865,10 @@ inquirer@^7.0.0:
     string-width "^4.1.0"
     strip-ansi "^6.0.0"
     through "^2.3.6"
+
+instantsearch.css@^7.4.2:
+  version "7.4.5"
+  resolved "https://registry.yarnpkg.com/instantsearch.css/-/instantsearch.css-7.4.5.tgz#2a521aa634329bf1680f79adf87c79d67669ec8d"
 
 internal-ip@^4.3.0:
   version "4.3.0"
@@ -5761,6 +5929,14 @@ loader-utils@^1.1.0, loader-utils@^1.2.3, loader-utils@^1.4.0:
     big.js "^5.2.2"
     emojis-list "^3.0.0"
     json5 "^1.0.1"
+
+loader-utils@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-2.0.0.tgz#e4cace5b816d425a166b5f097e10cd12b36064b0"
+  dependencies:
+    big.js "^5.2.2"
+    emojis-list "^3.0.0"
+    json5 "^2.1.2"
 
 locate-path@^2.0.0:
   version "2.0.0"
@@ -7084,7 +7260,7 @@ postcss-modules-local-by-default@^3.0.2:
     postcss-selector-parser "^6.0.2"
     postcss-value-parser "^4.0.0"
 
-postcss-modules-scope@^2.1.1:
+postcss-modules-scope@^2.1.1, postcss-modules-scope@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/postcss-modules-scope/-/postcss-modules-scope-2.2.0.tgz#385cae013cc7743f5a7d7602d1073a89eaae62ee"
   dependencies:
@@ -7624,6 +7800,30 @@ react-error-overlay@^6.0.7:
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
 
+react-fast-compare@^3.0.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
+
+react-instantsearch-core@^6.10.3:
+  version "6.10.3"
+  resolved "https://registry.yarnpkg.com/react-instantsearch-core/-/react-instantsearch-core-6.10.3.tgz#00679b0a2fe228f3845924c43857a20b18a44978"
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    algoliasearch-helper "^3.4.3"
+    prop-types "^15.6.2"
+    react-fast-compare "^3.0.0"
+
+react-instantsearch-dom@^6.6.0:
+  version "6.10.3"
+  resolved "https://registry.yarnpkg.com/react-instantsearch-dom/-/react-instantsearch-dom-6.10.3.tgz#314946b338198400acdbb0c5d79277fcf5c18350"
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    algoliasearch-helper "^3.4.3"
+    classnames "^2.2.5"
+    prop-types "^15.6.2"
+    react-fast-compare "^3.0.0"
+    react-instantsearch-core "^6.10.3"
+
 react-is@^16.7.0, react-is@^16.8.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -8144,6 +8344,14 @@ schema-utils@^2.5.0, schema-utils@^2.6.0, schema-utils@^2.6.1, schema-utils@^2.6
     ajv "^6.12.2"
     ajv-keywords "^3.4.1"
 
+schema-utils@^2.7.0:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-2.7.1.tgz#1ca4f32d1b24c590c203b8e7a50bf0ea4cd394d7"
+  dependencies:
+    "@types/json-schema" "^7.0.5"
+    ajv "^6.12.4"
+    ajv-keywords "^3.5.2"
+
 select-hose@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
@@ -8487,8 +8695,8 @@ sshpk@^1.7.0:
     tweetnacl "~0.14.0"
 
 ssri@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.1.tgz#2a3c41b28dd45b62b63676ecb74001265ae9edd8"
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.2.tgz#157939134f20464e7301ddba3e90ffa8f7728ac5"
   dependencies:
     figgy-pudding "^3.5.1"
 
@@ -8693,6 +8901,13 @@ style-loader@0.23.1:
   dependencies:
     loader-utils "^1.1.0"
     schema-utils "^1.0.0"
+
+style-loader@^1.2.1:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-1.3.0.tgz#828b4a3b3b7e7aa5847ce7bae9e874512114249e"
+  dependencies:
+    loader-utils "^2.0.0"
+    schema-utils "^2.7.0"
 
 stylehacks@^4.0.0:
   version "4.0.3"
